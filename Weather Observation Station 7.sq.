@@ -1,0 +1,9 @@
+/*
+problem name :Weather Observation Station 7
+problem link:https://www.hackerrank.com/challenges/weather-observation-station-7/problem
+status: accepted    
+
+
+*/
+
+select distinct CITY  from STATION  where REGEXP_LIKE(city,'.[aeiou]$');
